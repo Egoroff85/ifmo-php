@@ -1,0 +1,54 @@
+{
+  "db": {
+    "servername":"localhost",
+    "db_name":"BestShop",
+    "username":"root",
+    "password":""
+  },
+  "urls": {
+    "index": {
+      "path":"/",
+      "controller":"\\Best\\Shop\\Controllers\\IndexController::indexAction"
+    },    
+    "reg_account": {
+      "path":"/account/register",
+      "controller":"\\Best\\Shop\\Controllers\\AccountController::registrationAction"
+    },
+    "login_account": {
+      "path":"/account/login",
+      "controller":"\\Best\\Shop\\Controllers\\AccountController::loginAction"
+    },
+    "update_avatar": {
+      "path":"/account/updateavatar",
+      "controller":"\\Best\\Shop\\Controllers\\UploadController::avatarAction"
+    },
+    "update_user_avatar": {
+      "path":"/account/updateuseravatar",
+      "controller":"\\Best\\Shop\\Controllers\\AccountController::useravatarAction"
+    },
+    "upload_goods_image": {
+      "path":"/account/uploadgoodsimage",
+      "controller":"\\Best\\Shop\\Controllers\\UploadController::goodsimageAction"
+    },
+    "add_goods": {
+      "path":"/account/addgoods",
+      "controller":"\\Best\\Shop\\Controllers\\GoodsController::addgoodsAction"
+    },
+    "account": {
+      "path":"/account",
+      "controller":"\\Best\\Shop\\Controllers\\AccountController::accountAction"
+    },
+    "logout_account": {
+      "path":"/account/logout",
+      "controller":"\\Best\\Shop\\Controllers\\AccountController::logoutAction"
+    },
+    "catalog": {
+      "path":"/catalog",
+      "controller":"\\Best\\Shop\\Controllers\\CatalogController::catalogAction"
+    },
+    "contacts": {
+      "path":"/contacts",
+      "controller":"\\Best\\Shop\\Controllers\\ContactsController::contactsAction"
+    }
+  }
+}

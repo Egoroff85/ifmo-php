@@ -1,0 +1,20 @@
+{
+    "name": "wicked/php-shop",
+    "type": "project",
+    "license": "MIT",
+    "minimum-stability": "alpha",
+    "repositories": [
+        {
+            "type":"git",
+            "url":"https://github.com/web-development-courses/engine"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Best\\Shop\\": "private/"
+        }
+    },
+    "require": {
+        "web/engine": "dev-master"
+    }
+}
